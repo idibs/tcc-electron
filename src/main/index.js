@@ -13,7 +13,7 @@ function createWindow() {
     titleBarOverlay: {
       color: '#fffcff', // cor da barra de título
       symbolColor: '#000000', // cor do símbolo da barra de título
-      height: 32, // altura da barra de título
+      height: 10 // altura da barra de título
     },
     width: 1400, // largura da janela
     height: 850, // altura da janela

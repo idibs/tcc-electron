@@ -5,7 +5,7 @@ import { StrictMode } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home"
 import HomeEst from "./pages/Home-Est"
-import HomeFunc from "./pages/Home-Func"
+import HomePess from "./pages/Home-Pess"
 import Pagamento from "./pages/Pagamento"
 import Pedido from "./pages/Pedido"
 import Entrega from "./pages/Entrega"
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <HomeEst />
       },
       {
-        path: "funcionario",
-        element: <HomeFunc />
+        path: "pessoas",
+        element: <HomePess />
       },
       {
         path: "pagamento",
