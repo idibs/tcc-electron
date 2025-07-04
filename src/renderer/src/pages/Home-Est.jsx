@@ -1,5 +1,4 @@
 import Tabela1 from '../tables/Tabela-1'
-import useState from 'react';
 
 export default function HomeEst() {
     return(
